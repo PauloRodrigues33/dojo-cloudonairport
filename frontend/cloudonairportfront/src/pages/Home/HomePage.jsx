@@ -35,7 +35,7 @@ class HomePage extends Component {
 
     render() {
         return (
-            <div>
+            <div className="mt-4">
                 <Row>
                     <Col xs={4}>
                         <Menu />
