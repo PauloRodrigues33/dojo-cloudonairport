@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'VCROSDMONO';
+  src: url('/assets/fonts/VCR_OSD_MONO_1001.ttf');
+}
+
+body {
+  background-image: url("/assets/textures/water.jpg");
+  background-size: 40px;
+  background-position: right;
+  image-rendering: pixelated;
+  animation-name: bgPos;
+  animation-timing-function: steps(8);
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-duration: 5s;
+  font-family: 'VCROSDMONO';
+  text-rendering: geometricPrecision;
+}
+
+@keyframes bgPos {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: 40px;
+  }
+}

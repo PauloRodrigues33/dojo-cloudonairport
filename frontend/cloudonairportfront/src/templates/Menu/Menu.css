@@ -1,0 +1,44 @@
+.menu {
+  background-image: url("/assets/textures/stone.png");
+  background-size: 100px;
+  background-position: right;
+  image-rendering: pixelated;
+  width: auto;
+  height: 100%;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: transparent;
+  background-image: url("/assets/textures/jungle_sign.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 30px;
+  image-rendering: pixelated;
+  padding-left: 34px;
+  border: none;
+  outline-style: none;
+  outline: none;
+  font-size: 18px;
+  margin: 4px 6px 4px 6px;
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+.button:first-child {
+  margin-left: 0px;
+}
+
+.button:last-child {
+  margin-right: 0px;
+}
+
+.button:hover {
+  color: lightgray;
+}

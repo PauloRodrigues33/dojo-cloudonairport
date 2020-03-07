@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 500px;
+  max-height: 500px;
+  background-image: url("/assets/textures/grass_path_top.png");
+  background-size: 50px;
+  image-rendering: pixelated;
+  filter: hue-rotate(45deg);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin: auto;
+}
